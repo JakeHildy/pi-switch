@@ -36,3 +36,6 @@ replace network name (ssid) and password in the `wpa_supplicant.conf` file.
 
 > check architecture for pi:
 > `uname -m`
+
+Shut down the Raspberry Pi properly with the command:
+sudo shutdown -h now
