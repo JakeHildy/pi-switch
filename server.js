@@ -5,13 +5,21 @@ const LED = new Gpio(4, "out");
 const app = express();
 const port = 4000;
 
+// middleware
+app.use(express.json());
+
 app.get("/", (req, res) => {
   res.send("Hello from raspberry");
 });
 
 app.put("/", (req, res) => {
-  LED.writeSync(1);
-  res.send("turned on");
+  const { enable } = req.body;
+  LED.writeSync(enable);
+  if (enable) {
+    res.send("turned on");
+  } else {
+    res.send("turned off");
+  }
 });
 
 app.listen(port, () => {
