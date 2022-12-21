@@ -1,4 +1,5 @@
 const express = require("express");
+var cors = require("cors");
 const Gpio = require("onoff").Gpio;
 const LED = new Gpio(4, "out");
 
@@ -7,6 +8,7 @@ const port = 4000;
 
 // middleware
 app.use(express.json());
+app.use(cors());
 
 app.get("/", (req, res) => {
   res.send("Hello from raspberry");
