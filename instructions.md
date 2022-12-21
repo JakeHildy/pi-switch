@@ -32,6 +32,20 @@ test
 
 replace network name (ssid) and password in the `wpa_supplicant.conf` file.
 
+## install ngrok
+
+https://medium.com/@gaelollivier/connect-to-your-raspberry-pi-from-anywhere-using-ngrok-801e9fd1dd46
+
+`https://ngrok.com/download`
+
+Run these commands to download and install
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+unzip ngrok-stable-linux-arm.zip
+./ngrok --version
+
+Set AuthToken
+add authtoken to `ngrok.yml` file. See ngrok.sample.yml for example
+
 ## other commands
 
 > check architecture for pi:
