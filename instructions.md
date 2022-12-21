@@ -19,6 +19,15 @@ test
 `node --version`
 `npm --version`
 
+## installing git
+
+`sudo apt update`
+`sudo apt install git`
+
+## clone pi-switch repo
+
+`git clone https://github.com/JakeHildy/pi-switch.git`
+
 ## other commands
 
 > check architecture for pi:
