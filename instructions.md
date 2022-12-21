@@ -34,7 +34,6 @@ replace network name (ssid) and password in the `wpa_supplicant.conf` file.
 
 ## install and run ngrok
 
-https://medium.com/@gaelollivier/connect-to-your-raspberry-pi-from-anywhere-using-ngrok-801e9fd1dd46
 > https://medium.com/@gaelollivier/connect-to-your-raspberry-pi-from-anywhere-using-ngrok-801e9fd1dd46 > https://ngrok.com/download
 
 1. Run these commands to download and install
