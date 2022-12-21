@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 
 app.put("/", (req, res) => {
   const { enable } = req.body;
-  LED.writeSync(!enable);
+  LED.writeSync(enable);
   if (enable) {
     res.send("turned on");
   } else {
