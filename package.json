@@ -1,0 +1,23 @@
+{
+  "name": "pi-switch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeHildy/pi-switch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakeHildy/pi-switch/issues"
+  },
+  "homepage": "https://github.com/JakeHildy/pi-switch#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

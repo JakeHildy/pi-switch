@@ -28,6 +28,10 @@ test
 
 `git clone https://github.com/JakeHildy/pi-switch.git`
 
+## connect to a network
+
+replace network name (ssid) and password in the `wpa_supplicant.conf` file.
+
 ## other commands
 
 > check architecture for pi:
